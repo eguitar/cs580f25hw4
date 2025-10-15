@@ -1,0 +1,24 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+mvnw.*
+.log
+
+# class files
+*.class
+
+# build files
+*.jar
+*.war
+*.ear
+
+# keep source
+!src/
+!src/main/
+!src/main/java/
+!src/test/
+!src/test/java/
