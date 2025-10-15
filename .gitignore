@@ -8,10 +8,9 @@ release.properties
 mvnw.*
 .log
 
-# class files
-*.class
+.vscode/
 
-# build files
+*.class
 *.jar
 *.war
 *.ear
