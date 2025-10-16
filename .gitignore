@@ -8,6 +8,10 @@ release.properties
 mvnw.*
 .log
 
+# Surefire test reports
+/surefire-reports/
+/failsafe-reports/
+
 .vscode/
 
 *.class

@@ -1,4 +1,4 @@
-package cs580f25hw4.src.q1;
+package hw4.bridge;
 
 public class PushChannel {
     
