@@ -1,5 +1,5 @@
 package hw4.decorator;
 
-public class Topping {
+public class FoodItemTest {
     
 }
