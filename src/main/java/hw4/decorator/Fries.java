@@ -1,5 +1,11 @@
 package hw4.decorator;
 
-public class Fries {
-    
+class Fries implements FoodItem {
+    public String getDescription() {
+        return "Fries";
+    }
+
+    public double getCost() {
+        return 2.50;
+    }
 }
