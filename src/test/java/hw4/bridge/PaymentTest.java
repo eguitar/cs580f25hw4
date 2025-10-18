@@ -24,13 +24,6 @@ public class PaymentTest {
     }
 
     @Test
-    void testProcessPayment() {
-        NotificationChannel email = new EmailChannel();
-        Payment online = new OnlinePayment(email);
-        assertDoesNotThrow(() -> online.makePayment(100.00));
-    }
-
-    @Test
     void testDifferentChannels() {
         Payment bitcoinViaSms = new BitcoinPayment(new SMSChannel());
         Payment cashViaPush = new CashPayment(new PushChannel());

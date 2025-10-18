@@ -1,5 +1,5 @@
 package hw4.bridge;
 
-public class NotificationChannel {
-    
+public interface NotificationChannel {
+    void send(String message);
 }
